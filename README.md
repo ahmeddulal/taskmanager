@@ -40,3 +40,7 @@ python3 -m venv venv
 source venv/bin/activate       # Linux / Mac
 venv\Scripts\activate          # Windows
 python manage.py runserver
+
+## Running Test Cases
+python manage.py test tasks.tests.test_tasks_api
+
