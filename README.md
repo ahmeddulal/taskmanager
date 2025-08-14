@@ -34,9 +34,9 @@ A robust and secure **Task Manager API** built with **Django** and **Django REST
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/django-taskmanager.git
+git clone https://github.com/ahmeddulal/taskmanager.git
 cd django-taskmanager
 python3 -m venv venv
 source venv/bin/activate       # Linux / Mac
 venv\Scripts\activate          # Windows
-
+python manage.py runserver
